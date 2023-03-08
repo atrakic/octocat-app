@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  app:
+    image: nginx-octocat-app
+    container_name: nginx-octocat-app
+    build:
+      context: .
+    ports:
+      - 8080:8080
