@@ -1,2 +1,2 @@
-# nginx-octocat-app
+# octocat-app
 > Uses https://api.github.com/octocat
