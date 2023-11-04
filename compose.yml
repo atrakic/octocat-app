@@ -1,9 +1,7 @@
-version: '3.4'
 services:
   app:
-    image: octocat-app
-    container_name: octocat-app
     build:
-      context: .
+      context: ./src
+    container_name: app
     ports:
       - 8080:8080
