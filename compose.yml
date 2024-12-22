@@ -4,4 +4,4 @@ services:
       context: ./src
     container_name: app
     ports:
-      - 8080:8080
+      - 8080:80
